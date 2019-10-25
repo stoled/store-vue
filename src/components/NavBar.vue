@@ -1,7 +1,7 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="dark">
+  <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
     <b-container>
-      <b-navbar-brand to="/">Store</b-navbar-brand>
+      <b-navbar-brand to="/">Store Vue</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -23,9 +23,3 @@
     </b-container>
   </b-navbar>
 </template>
-
-<script>
-export default {
-  name: 'NavBar'
-}
-</script>
